@@ -150,6 +150,100 @@ a {
     padding: 18px 0;
 }
 
+.input-section__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-section__medium {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catalog__btn {
+    margin-right: 9px;
+    padding: 11px 17px 11px 0px;
+    background-color: #3131c41a;
+    border-radius: 4px;
+    border: none;
+}
+
+.catalog__btn::before {
+    content: '';
+    padding-right: 40px;
+    background-image: url('../images/icons/katalog.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 24px;
+}
+
+.catalog__btn-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.084px;
+    color: #3333CC;
+}
+
+.catalog-form {
+    position: relative;
+}
+
+.catalog-input {
+    padding: 11.5px 113.469px 11.5px 17px;
+    width: 496.47px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #76797f4d;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #757575;
+    outline: none;
+}
+
+.input-img {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.input-section__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.input-section__item::before {
+    content: '';
+    padding-left: 30px;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.input-section__item:nth-child(1):before{
+    background-image: url('../images/icons/register.svg');
+
+}
+.input-section__item:nth-child(2):before{
+    background-image: url('../images/icons/like.svg');
+
+}
+.input-section__item:nth-child(3):before{
+    background-image: url('../images/icons/korzinka.svg');
+
+}
+.input-section__link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+}
+
 /*********** INPUT SECTION STYLE END  ***********/
 
 /*********** CATALOG SECTION STYLE START  *************/
