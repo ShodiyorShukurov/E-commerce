@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+</head>
+
+<body>
+
+    <!-- HEADER START -->
+    <header class="site-header">
+        <div class="container">
+            <div class="site-header__wrapper">
+                <div class="site-header__start">
+                    <img class="location__img" src="./images/icons/location.svg" alt="location" width="12" height="15">
+                    <div>
+                        <p class="site-header__text">Город:</p>
+                        <a href="#" class="site-header__location">Ташкент</a>
+                    </div>
+                    <p class="text">Пункты выдачи</p>
+                </div>
+                <div class="site-header__medium">
+                    <p class="site-header__title">
+                        Доставим ваш заказ бесплатно — всего за 1 день!
+                    </p>
+
+                </div>
+                <div class="site-header__end">
+                    <ul class="site-header__list">
+                        <li class="site-header__item">
+                            <a class="site-header__link" href="#">Продавайте на Uzum</a>
+                        </li>
+                        <li class="site-header__item">
+                            <a class="site-header__link" href="#">Вопрос-ответ</a>
+                        </li>
+                        <li class="site-header__item">
+                            <a class="site-header__link" href="#">Мои заказы</a>
+                        </li>
+                        <li class="site-header__item">
+                            <a class="site-header__link" href="#">Русский</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
+    <main class="site-main">
+        <h1 class="visually-hidden">
+            UZUM MARKET
+        </h1>
+        <!-- INPUT SECTION START -->
+        <section class="input-section">
+            <div class="container">
+                <div class="input-section__wrapper">
+                    <div class="input-section__start">
+                        <img class="site-logo" src="./images/icons/site__logo.svg" alt="Uzum market">
+                    </div>
+                    <div class="input-section__end">
+                        <form class="js-input-form" action="https://echohtmlacadmy.com" method="GET">
+                            <input class="js-name-input" type="text" name="product_name" placeholder="Product name"
+                                autocomplete="current-name" required>
+                            <input class="js-desc-input" type="text" name="product_desc"
+                                placeholder="Product description" autocomplete="current-desc" required>
+
+                            <input class="js-img-input" type="file" name="product_img" placeholder="Product images"
+                                autocomplete="current-img" required>
+                            <input class="js-number-input" type="number" name="product_price"
+                                placeholder="Product price" autocomplete="current-price" required>
+                                <button type="submit">Add</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- INPUT SECTION END -->
+
+        <!-- CATALOG SECTION START -->
+        <section class="catalog-section">
+            <div class="container">
+                <ul class="catalog-section__list">
+                    <li class="catalog-section__item">
+                        <a class="catalog-section__link" href="#">
+                            Электроника
+                        </a>
+                    </li>
+                    <li class="catalog-section__item">
+                        <a class="catalog-section__link" href="#">
+                            Бытовая техника
+                        </a>
+                    </li>
+                    <li class="catalog-section__item">
+                        <a class="catalog-section__link" href="#">
+                            Одежда
+                        </a>
+                    </li>
+                    <li class="catalog-section__item">
+                        <a class="catalog-section__link" href="#">
+                            Обувь
+                        </a>
+                    </li>
+                    <li class="catalog-section__item">
+                        <a class="catalog-section__link" href="#">
+                            Аксессуары
+                        </a>
+                    </li>
+                    <li class="catalog-section__item">
+                        <a class="catalog-section__link" href="#">
+                            Красота
+                        </a>
+                    </li>
+                    <li class="catalog-section__item">
+                        <a class="catalog-section__link" href="#">
+                            Здоровье
+                        </a>
+                    </li>
+                    <li class="catalog-section__item">
+                        <a class="catalog-section__link" href="#">
+                            Товары для дома
+                        </a>
+                    </li>
+                    <li class="catalog-section__item">
+                        <a class="catalog-section__link" href="#">
+                            Строительство и ремонт
+                        </a>
+                    </li>
+                    <li class="catalog-section__item">
+                        <a class="catalog-section__link" href="#">
+                            Автотовары
+                        </a>
+                    </li>
+                    <li class="catalog-section__item">
+                        <a class="catalog-section__link" href="#">
+                            Детские товары
+                        </a>
+                    </li>
+                    <li class="catalog-section__item">
+                        <a class="catalog-section__link" href="#">
+                            Ещё
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- CATALOG SECTION END -->
+
+        <!-- CARD SECTION START -->
+        <section class="card-section">
+            <div class="container">
+                <h2 class="popular-text">
+                    Популярное
+                </h2>
+                <ul class="card-section__list">
+                    <li class="card-section__item">
+                        <img src="./images/tide.png" alt="Tide" width="232" height="309">
+                        <img class="like_img" src="./images/icons/like.svg" alt="like" width="18" height="16">
+                        <div class="card-texts">
+                            <p class="card-desc">
+                                Стиральный порошок автомат Tide альпийская свежесть, 3 кг
+                            </p>
+                            <p class="rating-text">
+                                5.0
+                                <span class="rating-text2">
+                                    (37 оценок)
+                                </span>
+                            </p>
+                            <p class="month-text">
+                                8 880 сум/мес
+                            </p>
+                            <div class="prices">
+                                <div>
+                                    <p class="prev-price">93 000 сум </p>
+                                    <p class="price-text">
+                                        74 000 сум
+                                    </p>
+                                </div>
+                                <button class="korzinka-btn" type="submit">
+                                    <img src="./images/icons/korzinka.svg" alt="korzinka">
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-section__item">
+                        <img src="./images/esty.jpg" alt="Esty" width="232" height="309">
+                        <img class="like_img" src="./images/icons/like.svg" alt="like" width="18" height="16">
+                        <div class="card-texts">
+                            <p class="card-desc">
+                                Туалетная бумага Esty, 6 шт
+                            </p>
+                            <p class="rating-text">
+                                5.0
+                                <span class="rating-text2">
+                                    (14 оценок)
+                                </span>
+                            </p>
+                            <p class="month-text">
+                                1 560 сум/мес
+                            </p>
+                            <div class="prices">
+                                <div>
+                                    <p class="prev-price">16 000 сум </p>
+                                    <p class="price-text">
+                                        13 000 сум
+                                    </p>
+                                </div>
+                                <button class="korzinka-btn" type="submit">
+                                    <img src="./images/icons/korzinka.svg" alt="korzinka">
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-section__item">
+                        <img src="./images/pegas.jpg" alt="Pegas" width="232" height="309">
+                        <img class="like_img" src="./images/icons/like.svg" alt="like" width="18" height="16">
+                        <div class="card-texts">
+                            <p class="card-desc">
+                                Жидкое мыло-крем Pegas, 1 л
+                            </p>
+                            <p class="rating-text">
+                                4.9
+                                <span class="rating-text2">
+                                    (202 оценки)
+                                </span>
+                            </p>
+                            <p class="month-text">
+                                1 680 сум/мес
+                            </p>
+                            <div class="prices">
+                                <div>
+                                    <p class="prev-price">25 000 сум </p>
+                                    <p class="price-text">
+                                        14 000 сум
+                                    </p>
+                                </div>
+                                <button class="korzinka-btn" type="submit">
+                                    <img src="./images/icons/korzinka.svg" alt="korzinka">
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-section__item">
+                        <img src="./images/granit__ultra.jpg" alt="granit ultra" width="232" height="309">
+                        <img class="like_img" src="./images/icons/like.svg" alt="like" width="18" height="16">
+                        <div class="card-texts">
+                            <p class="card-desc">
+                                Сковорода Kukmara со съемной ручкой, АП линия "Granit ultra" (Blue)
+                            </p>
+                            <p class="rating-text">
+                                5.0
+                                <span class="rating-text2">
+                                    (10 оценок)
+                                </span>
+                            </p>
+                            <p class="month-text">
+                                20 400 сум/мес
+                            </p>
+                            <div class="prices">
+                                <div>
+                                    <p class="prev-price">227 000 сум </p>
+                                    <p class="price-text">
+                                        170 000 сум
+                                    </p>
+                                </div>
+                                <button class="korzinka-btn" type="submit">
+                                    <img src="./images/icons/korzinka.svg" alt="korzinka">
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-section__item">
+                        <img src="./images/esty2.jpg" alt="Esty" width="232" height="309">
+                        <img class="like_img" src="./images/icons/like.svg" alt="like" width="18" height="16">
+                        <div class="card-texts">
+                            <p class="card-desc">
+                                Детские влажные салфетки Esty Premium, 120 шт
+                            </p>
+                            <p class="rating-text">
+                                5.0
+                                <span class="rating-text2">
+                                    (55 оценок)
+                                </span>
+                            </p>
+                            <p class="month-text">
+                                1 440 сум/мес
+                            </p>
+                            <div class="prices">
+                                <div>
+                                    <p class="prev-price">18 000 сум</p>
+                                    <p class="price-text">
+                                        12 000 сум
+                                    </p>
+                                </div>
+                                <button class="korzinka-btn" type="submit">
+                                    <img src="./images/icons/korzinka.svg" alt="korzinka">
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-section__item">
+                        <img src="./images/product.jpg" alt="Product" width="232" height="309">
+                        <img class="like_img" src="./images/icons/like.svg" alt="like" width="18" height="16">
+                        <div class="card-texts">
+                            <p class="card-desc">
+                                Антивибрационные напольные подставки под стиральную машину и бытовую технику, 4 штуки
+                            </p>
+                            <p class="rating-text">
+                                5.0
+                                <span class="rating-text2">
+                                    (87 оценок)
+                                </span>
+                            </p>
+                            <p class="month-text">
+                                3 120 сум/мес
+                            </p>
+                            <div class="prices">
+                                <div>
+                                    <p class="prev-price"> </p>
+                                    <p class="price-text">
+                                        24 000 сум
+                                    </p>
+                                </div>
+                                <button class="korzinka-btn" type="submit">
+                                    <img src="./images/icons/korzinka.svg" alt="korzinka">
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-section__item">
+                        <img src="./images/techno__spark.jpg" alt="Techno spark" width="232" height="309">
+                        <img class="like_img" src="./images/icons/like.svg" alt="like" width="18" height="16">
+                        <div class="card-texts">
+                            <p class="card-desc">
+                                Смартфон Tecno Spark GO 2022 2/32GB Atlantic Blue 10029240
+                            </p>
+                            <p class="rating-text">
+                                5.0
+                                <span class="rating-text2">
+                                    (2 оценки)
+                                </span>
+                            </p>
+                            <p class="month-text">
+                                157 560 сум/мес
+                            </p>
+                            <div class="prices">
+                                <div>
+                                    <p class="prev-price"> 1 357 000 сум</p>
+                                    <p class="price-text">
+                                        1 313 000 сум
+                                    </p>
+                                </div>
+                                <button class="korzinka-btn" type="submit">
+                                    <img src="./images/icons/korzinka.svg" alt="korzinka">
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-section__item">
+                        <img src="./images/kazan.jpg" alt="kazan" width="232" height="309">
+                        <img class="like_img" src="./images/icons/like.svg" alt="like" width="18" height="16">
+                        <div class="card-texts">
+                            <p class="card-desc">
+                                Казан для плова Kukmara со стеклянной и не стеклянной крышкой, АП кофейный мрамор
+                            </p>
+                            <p class="rating-text">
+                                5.0
+                                <span class="rating-text2">
+                                    (7 оценок)
+                                </span>
+                            </p>
+                            <p class="month-text">
+                                32 400 сум/мес
+                            </p>
+                            <div class="prices">
+                                <div>
+                                    <p class="prev-price"> </p>
+                                    <p class="price-text">
+                                        270 000 сум
+                                    </p>
+                                </div>
+                                <button class="korzinka-btn" type="submit">
+                                    <img src="./images/icons/korzinka.svg" alt="korzinka">
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-section__item">
+                        <img src="./images/mashinka.jpg" alt="mashinka" width="232" height="309">
+                        <img class="like_img" src="./images/icons/like.svg" alt="like" width="18" height="16">
+                        <div class="card-texts">
+                            <p class="card-desc">
+                                Машинка для удаления катышков, от сети 220 В
+                            </p>
+                            <p class="rating-text">
+                                5.0
+                                <span class="rating-text2">
+                                    (19 оценок)
+                                </span>
+                            </p>
+                            <p class="month-text">
+                                17 420 сум/мес
+                            </p>
+                            <div class="prices">
+                                <div>
+                                    <p class="prev-price">150 000 сум </p>
+                                    <p class="price-text">
+                                        134 000 сум
+                                    </p>
+                                </div>
+                                <button class="korzinka-btn" type="submit">
+                                    <img src="./images/icons/korzinka.svg" alt="korzinka">
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card-section__item">
+                        <img src="./images/power__bank.jpg" alt="Power Bank" width="232" height="309">
+                        <img class="like_img" src="./images/icons/like.svg" alt="like" width="18" height="16">
+                        <div class="card-texts">
+                            <p class="card-desc">
+                                Внешний аккумулятор Xiaomi Redmi Power Bank, черный, 10000 мА/ч
+                            </p>
+                            <p class="rating-text">
+                                4.5
+                                <span class="rating-text2">
+                                    (19 оценок)
+                                </span>
+                            </p>
+                            <p class="month-text">
+                                23 280 сум/мес
+                            </p>
+                            <div class="prices">
+                                <div>
+                                    <p class="prev-price">235 000 сум </p>
+                                    <p class="price-text">
+                                        194 000 сум
+                                    </p>
+                                </div>
+                                <button class="korzinka-btn" type="submit">
+                                    <img src="./images/icons/korzinka.svg" alt="korzinka">
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+        <!-- CARD SECTION END -->
+
+        <section class="product-section">
+            <div class="container">
+                <hr>
+                <br>
+                <ul class="card-section__list">
+
+                    <li class="card-section__item">
+                        <img class="card-img" src="./images/photo_2023-02-22_20-03-09.jpg" alt="Power Bank" width="232" height="309">
+                        <img class="like_img" src="./images/icons/like.svg" alt="like" width="18" height="16">
+                        <div class="card-texts">
+                            <p class="card-desc">
+                                Внешний аккумулятор Xiaomi Redmi Power Bank, черный, 10000 мА/ч
+                            </p>
+                            <div class="prices card-price">
+                                <div class="price">
+                                    <p class="price-text">
+                                        194 000 сум
+                                    </p>
+                                </div>
+                                <div class="btns">
+
+                                    <button class="korzinka-btn" type="submit">
+                                        <img src="./images/icons/korzinka.svg" alt="korzinka">
+                                    </button>
+                                    <button class="edit__btn" type="submit">Edit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- MAIN END -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+
+<body>
+
+    <section class="container forms">
+        <div class="form register">
+            <div class="form-content">
+                <h1 class="register__title">Register</h1>
+                <form class="form js-register-form" action="https://echo.htmlechoacadmy.com" method="POST">
+                    <div class="field  input-field">
+                        <input class="js-register-name" type="text" name="user_name" autocomplete="current-username"
+                            placeholder="Your name" required>
+                    </div>
+                    <div class="field  input-field">
+                        <input class="js-register-email" type="email" name="email" autocomplete="current-email"
+                            placeholder="Your email" required>
+
+                    </div>
+                    <div class="field  input-field">
+                        <input class="js-register-tel" type="tel" name="phone" autocomplete="currentname"
+                            placeholder="Your phone number" required>
+                    </div>
+                    <div class="field  input-field">
+                        <input class="js-register-password" type="password" name="password"
+                            autocomplete="current-password" placeholder="Your password" required>
+                        <i class="fa-sharp fa-solid fa-eye-slash"></i>
+                    </div>
+                    <div class="field button-field">
+                        <button type="submit">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/register.js"></script>
+</body>
+
+</html>
