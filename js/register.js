@@ -4,7 +4,7 @@ const elRegisterEmail = elRegisterForm.querySelector('.js-register-email');
 const elRegisterPhone = elRegisterForm.querySelector('.js-register-tel');
 const elRegisterPassword = elRegisterForm.querySelector('.js-register-password');
 
-const API_KEY = 'http://192.168.87.38:5000/';
+const API_KEY = 'https://e-commerc-ymsv.onrender.com';
 
 async function register() {
     try {
